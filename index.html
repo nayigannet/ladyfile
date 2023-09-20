@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: khaki;
+        }
+        table, th, td {
+            padding: 0.1%;
+
+        }
+        #names, #emails, #nunber, #password {
+            width: 88%;
+            height: 20px;
+        }
+        .button {
+            background-color: whitesmoke;
+            font-size: larger;
+            color: rgb(165, 8, 8);
+            width: 50%;
+            height: 50px;
+            border-radius: 30%;
+            font-size: xx-large;
+        }
+        h1 {
+            justify-content: center;
+            display: flex;
+        }
+        form {
+            border: solid 5px black;
+            display: flex;
+            padding: 1%;
+            justify-content: center;
+            margin-left: 30%;
+            border-radius:5% ;
+            margin-right: 30%;
+        }
+    </style>
+</head>
+<body>
+    <h1>FORM TO BE FILLED BY NOMINEES</h1>
+    <form>
+        <table>
+            <tr>
+                <th><label for="names">Full Name</label></th>
+                <td><input type="text" name="yourname" id="names"placeholder="Nayiga Annet"></td>
+            </tr>
+            <tr>
+                <th><label for="emails">Email</label></th>
+                <td>><input type="email" name="gmail" id="emails" placeholder="annetnayiga.b@gmail.com"></td>
+            </tr>
+            <tr>
+                <th><label for="number">Phone number</label></th>
+                <td><input type="number" name="mobilenumber" id="number"></td>            
+            </tr>
+            <tr>
+                <th><label for="password">Nominee's password</label></th>
+                <td><input type="password" name="nominee'spassword" id="password"></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                </td>
+            </tr>
+            <tr>
+                <th><label for="date">Date of Birth</label></th>
+                <td><input type="date" name="date of birth" id="date"></td>
+            </tr>
+            <tr>
+                <th>Level of study</th>
+                <td>
+                    <label for="Olevel">UCE</label>
+                    <input type="checkbox" name="Studies" id="Olevel">
+                    <label for="Alevel">HSC</label>
+                    <input type="checkbox" name="Studies" id="Alevel">
+                    <label for="diploma">Diploma</label>
+                    <input type="checkbox" name="Studies" id="diploma">
+                    <label for="degree">Degree</label>
+                    <input type="checkbox" name="Studies" id="degree">
+                </td>
+            </tr>
+            <tr>
+                <th>Why would it be you to be voted for?</th>
+                <td><textarea name="writing" id="Qualifications" cols="50" rows="20"></textarea></td>
+            </tr>
+            <tr>
+                <th colspan="2"> <input type="submit" value="submit" class="button"></th>
+            </tr>
+
+        </table>
+    </form>
+    <a href="gr.html">next page</a>
+</body>
+</html>
